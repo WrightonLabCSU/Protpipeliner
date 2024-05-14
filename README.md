@@ -1,6 +1,14 @@
 # Protpipeliner
 This script combines MUSCLE, GBLOCKS, Prottest and RaxML for an efficient and streamlined method of building trees.
 
+
+# IMPORTANT alternative script
+`protpipeliner-pplacer.py`
+
+This version limits model selection to those compatible with pplacer.
+
+------
+
 Example usage:
 `protpipeliner.py -i dmso_fortree_aligned.fasta -t 10 -b 100 -m low -a T`
 
